@@ -53,7 +53,7 @@ const articleMap = articles.map((article) => {
 
     // create img element, attribute & class
     const newImage = document.createElement('img')
-    newImage.setAttribute('src', '/assets/img/articles/' + article.gambar)
+    newImage.setAttribute('src', './assets/img/articles/' + article.gambar)
     newImage.setAttribute('alt', article.alt)
 
     // create h2 element and class
