@@ -23,7 +23,7 @@ header {
 
 .jumbotron::before {
   content: "";
-  background-image: url(assets/img/bg1.jpg);
+  background-image: url(/assets/img/bg1.jpg);
   background-size: auto;
   position: absolute;
   top: 0px;
